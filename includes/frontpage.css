@@ -1,0 +1,132 @@
+.column {
+    float: left;
+    width:25%;
+   
+    overflow: hidden;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display:table;
+    width:100%;
+}
+.bre{
+background-color: white;
+    width: auto;
+    height: 30px;
+    display: block;
+}
+
+.ima
+{
+    padding:1px;
+    background:white;
+    
+}
+.content{
+   
+}
+
+.right-button, .left-button{
+  position: absolute;
+  top: 45%;
+  padding: 15px;
+  color: black;
+      background-color: lightgray;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.right-button {
+  right: 0;
+        margin-right:13%;
+  border-radius: 3px 0 0 3px;
+}
+
+.left-button {
+  left: 0;
+    margin-left:13%;
+  border-radius: 3px 0 0 3px;
+}
+.right-button:hover, .left-button:hover {
+  background-color:black;
+      color: white;
+
+}
+.xyz{
+    background-color: #2e51a2;
+}
+
+.asd{
+background-color:white;
+    margin-top: 1%;
+   
+   
+}
+.slider{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.brek{
+    background-color: white;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.leftadd{
+ 
+margin-top 25%; 
+ width: 104px;
+    position:absolute;
+   
+}
+.rightadd{
+
+margin-left: 87.5%;
+ width: 104px;
+    position:absolute;
+   
+}
+.zoomleft {
+transition: transform .2s;
+margin: 0 auto;
+}
+.zoomleft:hover{
+  
+    transform: scale(2); 
+    margin-left:50px;
+   
+}
+
+.zoomright {
+transition: transform .2s;
+margin: 0 auto;
+}
+.zoomright:hover{
+  
+    transform: scale(1.5); 
+  
+    margin-right: 50px;
+}

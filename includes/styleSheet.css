@@ -1,0 +1,406 @@
+body:not(.ownlist) {
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin: 8px;
+	
+	
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+.wbox {
+	display:inline-block;
+	border: 10px solid #e1e7f5;
+    width:530px;
+}
+
+.wbox table{
+	
+    display: table;
+border-style:solid;
+border-width:1px;	
+ border-color:  lightgrey;
+  padding-top:20px;
+  padding-bottom:20px;
+ padding-left:60px;
+  padding-right:60px;
+
+}
+
+
+
+.wbox input{
+		display:block;
+	margin-top:8px;
+	width:100%;
+	padding:10px;
+}	
+
+
+.wbox button {
+	display:block;
+	border-radius:2px;
+ font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+	color:white;	  
+  	background-color: #2e51a2;
+	border-color:blue;
+	padding:10px;
+}
+
+
+
+.wboxWide {
+	display:inline-block;
+	border: 10px solid #e1e7f5;
+    width:870px;
+}
+
+.wboxWide table{
+	
+    display: table;
+border-style:solid;
+border-width:1px;	
+ border-color:  lightgrey;
+  padding-top:20px;
+  padding-bottom:20px;
+ padding-left:60px;
+  padding-right:60px;
+
+}
+
+.wboxWide input{
+		display:block;
+					border-radius:5px;
+					border-style:solid;
+					border-color:lightgray;
+	margin-top:8px;
+	width:100%;
+	padding:10px;
+}	
+
+
+.wboxWide button {
+	display:block;
+	border-radius:2px;
+ font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+	color:white;	  
+  	background-color: #2e51a2;
+	border-color:blue;
+	padding:10px;
+}
+
+	
+	
+.filters table{
+	font-size:12px;
+    display: table;
+border-width:0px;	
+  padding-top:0px;
+  padding-bottom:0px;
+ padding-left:0px;
+  padding-right:0px;
+  margin-left:-90px;
+    border-spacing: 100px 3px;
+
+}
+
+
+.custom-select select {
+  color:blue;
+  border-radius:15px; 
+padding:2px;	
+}
+
+select:disabled {
+    background: lightgrey;
+	color:white;
+}
+
+.search-select select {
+	display:inline;
+  border-radius:10px 0px 0px 10px; 
+  	
+	margin-top:8px;
+	padding:2px;
+
+}
+.search-select input{
+		display:inline;
+		border-color:lightgray;
+	margin-top:8px;
+	padding:2px;
+}
+
+
+.search-select button {
+	display:inline;
+  border-radius:0px 10px 10px 0px; 
+  	background-color: white;
+	border-color:lightgrey;
+	margin-top:8px;
+	padding:2px;
+}
+
+
+
+.addtoC	button
+{
+	color:#fff;
+   border: #2e51a2 2px solid;
+    border-radius: 4px;
+    display: block;
+    font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+	background-color: #2e51a2;	
+}
+
+.gbox {
+    border: 1px solid grey;
+	display:block;
+	background-color: lightgrey;
+	height:100%;
+    border-radius: 2px;	
+}
+.bbox {
+    border: 1px solid blue;
+	background-color: #2e51a2;
+	text-align:center;
+	padding:1px;
+    border-radius: 2px;	
+}
+
+.page-common #theWTVlist {
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    width: 1060px;
+}
+
+.menu-option a:hover {
+    background: lightblue;
+    text-decoration: none;
+}
+	hr { 
+	display: block;
+	margin-top: 0px;
+} 
+
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+table.fixed tr { overflow: hidden; }
+.add table {
+	display:inline-block;
+	width:100%;
+	padding:0px;
+    color: #2e51a2;
+    text-decoration: none;
+}
+
+
+.imgbox {
+  position: relative;
+  padding:1px;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+
+   border: black 2px solid;
+    border-radius: 15px;
+	margin-left: 8px;
+    padding: 4px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 90px;
+	background-color: grey;
+
+  
+}
+
+
+.genre, a {
+	display:inline;
+	width:0px;
+	padding:0px;	
+    text-decoration: none;
+}
+
+.add table:hover {
+    color: white;
+	width:100%;
+    background: #2e51a2;
+}
+
+.page-common .logoName {
+    height: 36px;	
+}
+.menu-option  .btn-login {
+    border: #2e51a2 2px solid;
+    border-radius: 2px;
+    display: inline-block;
+    font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 8px;
+    padding: 4px 0;
+    text-align: center;	
+    text-decoration: none;
+    width: 90px;
+}
+
+
+.wrapper {
+	text-align: center;
+    border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+    height: 100%;
+    width: 75%;
+    margin-left:12.5%;
+	padding:5px;	
+}
+
+
+
+.page-common 	.wrap2 {
+	text-align: left;
+	border-right: 1px solid lightgrey;
+    height: 100%;
+	padding:5px;	
+}
+
+.menu-option .btn-signup {
+	color:white;
+   border: #2e51a2 2px solid;
+    border-radius: 15px;
+    display: inline-block;
+    font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 8px;
+    padding: 4px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 90px;
+	background-color: #2e51a2;
+}
+
+.sscore table{
+	font-size:12px;
+    display: table;
+border-width:0px;	
+  padding-top:0px;
+  padding-bottom:0px;
+ padding-left:0px;
+  padding-right:0px;
+  margin-left:0px;
+    border-spacing: 0px 0px;
+	
+}
+
+.sscore input{
+		display:block;
+		border-width:0px;
+		margin-bottom:25%;
+	width:15px;
+}	
+
+.smallTextBox input{
+	width:25%;
+	border-radius:0px;
+	border-width:1px;	
+	height:0px;
+}	
+
+
+
+	
+.gfill table{
+	font-size:12px;
+    display: table;
+border-width:0px;	
+  padding-top:0px;
+  padding-bottom:0px;
+ padding-left:0px;
+  padding-right:0px;
+  margin-left:0px;
+    border-spacing: 0px 0px;
+}
+
+.gfill input{
+		display:block;
+		border-width:0px;
+		margin-bottom:25%;
+	width:15px;
+}
+
+.dropbtn {
+    
+    border: none;
+    cursor: pointer;
+		padding:5px;
+	
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #e1e7f5;
+	padding:5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	width:130px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+   box-shadow: 0px 8px 16px 0px  #e1e7f5;	
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #e1e7f5}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.hide {display:none;}
